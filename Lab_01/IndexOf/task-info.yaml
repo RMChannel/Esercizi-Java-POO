@@ -1,0 +1,24 @@
+type: output
+files:
+  - name: src/Main.java
+    visible: true
+    placeholders:
+      - offset: 207
+        length: 141
+        placeholder_text: /* TODO */
+        initial_state:
+          length: 10
+          offset: 207
+        initialized_from_dependency: false
+        encrypted_possible_answer: fsipsbx1WNv7LKiEgbHs0FrXrxdeEEsyXBDQDbGhlF6Irqh7FrHHSa5G4UxRjKA0h6Ch/y13sowhM/gZqgs5pLZWzaXBa6b8juzizJ3/ExAw2aeMcj3scv7iXG4coYeHDpgFb6oV+W3GT+Cnvlu7KYV/yl9YbTGsCnsOlmXpuIR9oO/HAcB1lo4QVNnr7fBl
+        selected: true
+        status: Solved
+    learner_created: false
+  - name: test/output.txt
+    visible: false
+    learner_created: false
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Wed, 02 Oct 2024 07:41:13 UTC"
+record: -1
