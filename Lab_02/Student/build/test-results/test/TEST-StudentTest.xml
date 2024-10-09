@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="StudentTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2024-10-09T08:34:15" hostname="LEGION" time="0.006">
+  <properties/>
+  <testcase name="media" classname="StudentTest" time="0.005"/>
+  <testcase name="createStudent" classname="StudentTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

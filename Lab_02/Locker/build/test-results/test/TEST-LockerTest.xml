@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="LockerTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-10-09T11:48:34" hostname="LEGION" time="0.013">
+  <properties/>
+  <testcase name="test" classname="LockerTest" time="0.013"/>
+  <system-out><![CDATA[A
+B
+C
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
