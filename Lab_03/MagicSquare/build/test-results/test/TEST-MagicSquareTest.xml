@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="MagicSquareTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2024-10-16T16:20:28" hostname="MacBook-Pro-di-Roberto.local" time="0.007">
+  <properties/>
+  <testcase name="falseMagicSquareTest" classname="MagicSquareTest" time="0.005"/>
+  <testcase name="trueMagicSquareTest" classname="MagicSquareTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

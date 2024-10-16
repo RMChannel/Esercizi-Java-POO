@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="BankTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2024-10-16T09:49:31" hostname="MacBook-Pro-di-Roberto.local" time="0.032">
+  <properties/>
+  <testcase name="transferTest" classname="BankTest" time="0.02"/>
+  <testcase name="findAccountTest" classname="BankTest" time="0.003"/>
+  <testcase name="depositTest" classname="BankTest" time="0.003"/>
+  <testcase name="withdrawTest" classname="BankTest" time="0.003"/>
+  <system-out><![CDATA[aaaa500.0
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
