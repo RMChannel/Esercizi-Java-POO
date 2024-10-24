@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="it.unisa.railways.ExpressTrainTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-10-23T07:35:56" hostname="LEGION" time="0.004">
+  <properties/>
+  <testcase name="testSolution" classname="it.unisa.railways.ExpressTrainTest" time="0.004"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
