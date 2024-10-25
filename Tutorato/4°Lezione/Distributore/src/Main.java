@@ -1,7 +1,7 @@
 public class Main {
     public static void main(String[] args) {
         Distributore distributore=new Distributore("Santa Maria a Vico", "Aleksandre Chickviladze",300,"Diesel");
-        System.out.println("Città: "+distributore.città+"\nProprietario: "+distributore.proprietario+"\nLitri disponibili: "+distributore.litri());
+        System.out.println("Città: "+distributore.getCittà()+"\nProprietario: "+distributore.getProprietario()+"\nLitri disponibili: "+distributore.litri());
         distributore.aggiungi(200);
         distributore.aggiungi(300);
         distributore.rifornisci(50);

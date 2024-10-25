@@ -1,7 +1,7 @@
 public class Distributore {
-    public String città;
-    public String proprietario;
-    public Pompa pompa;
+    private String città;
+    private String proprietario;
+    private Pompa pompa;
     private double costoAcquisto=1.2;
     private double costoVendita=1.8;
     private double spese=0;
@@ -26,5 +26,11 @@ public class Distributore {
     }
     public double ricavo() {
         return guadagno-spese;
+    }
+    public String getProprietario() {
+        return proprietario;
+    }
+    public String getCittà() {
+        return città;
     }
 }
