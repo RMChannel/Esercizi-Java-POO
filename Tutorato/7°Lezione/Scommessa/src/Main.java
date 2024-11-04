@@ -1,6 +1,6 @@
 public class Main {
     public static void main(String[] args) {
-        Scommessa s1=new ScommessaCalcistica("AC12CA3",500,3.0,"Serie A","Casertana","Salernitana");
+        Scommessa s1=new ScommessaCalcistica("AC12CA3",500,3.0,"Serie A","Casertana","Salernitana",'X');
         Cavalli cavalli=new Cavalli();
         cavalli.Add("Giovanni");
         cavalli.Add("Lucio");

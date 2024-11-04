@@ -1,7 +1,7 @@
 public class ScommessaIppica extends Scommessa {
     private String TipologiaGara;
     private int TipoScommessa;
-    Cavalli cavalli;
+    private Cavalli cavalli;
     public ScommessaIppica(String CodiceEvento, double SommaPuntata, double QuotazioneScommessa, String TipologiaGara, int TipoScommessa, Cavalli cavalli) {
         super(CodiceEvento, SommaPuntata, QuotazioneScommessa);
         this.TipologiaGara = TipologiaGara;
@@ -10,17 +10,14 @@ public class ScommessaIppica extends Scommessa {
     }
     public double calcolaVincita(boolean Vincita) {
         if(Vincita) {
-            if(TipoScommessa==1) return super.getQuotazioneScommessa()*getSommaPuntata();
-            else if(TipoScommessa==2) return super.getQuotazioneScommessa()*getSommaPuntata()*cavalli.GetN();
+            if(TipoScommessa==1) return (super.getQuotazioneScommessa()*super.getSommaPuntata())/cavalli.GetN();
+            else if(TipoScommessa==2) return (super.getQuotazioneScommessa()*super.getSommaPuntata())/(cavalli.GetN()*3);
             else return -1.0;
         }
         else return 0.0;
     }
     public String getTipologiaGara() {
         return TipologiaGara;
-    }
-    public int getTipoScommessa() {
-        return TipoScommessa;
     }
     public Cavalli getCavalli() {
         return cavalli;
