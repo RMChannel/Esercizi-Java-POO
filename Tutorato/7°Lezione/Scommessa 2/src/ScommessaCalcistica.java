@@ -2,16 +2,18 @@ public class ScommessaCalcistica extends Scommessa {
     private String Competizione;
     private String SquadraA;
     private String SquadraB;
-    public ScommessaCalcistica(String CodiceEvento, double SommaPuntata, double QuotazioneScommessa, String Competizione, String SquadraA, String SquadraB) {
+    private char scommessa;
+    public ScommessaCalcistica(String CodiceEvento, double SommaPuntata, double QuotazioneScommessa, String Competizione, String SquadraA, String SquadraB, char scommessa) {
         super(CodiceEvento,SommaPuntata,QuotazioneScommessa);
         this.Competizione = Competizione;
         this.SquadraA = SquadraA;
         this.SquadraB = SquadraB;
+        this.scommessa = scommessa;
     }
 
     @Override
     public double calcolaVincita(boolean Vincita) {
-        if(Vincita) return super.getQuotazioneScommessa()*getSommaPuntata();
+        if(Vincita) return super.getQuotazioneScommessa()*super.getSommaPuntata();
         else return 0.0;
     }
 
@@ -24,9 +26,8 @@ public class ScommessaCalcistica extends Scommessa {
     public String getSquadraB() {
         return SquadraB;
     }
-    @Override
-    public String getTipoScommessa() {
-        return "calcistica";
+    public char getScommessa() {
+        return scommessa;
     }
     @Override
     public void printScommessa() {

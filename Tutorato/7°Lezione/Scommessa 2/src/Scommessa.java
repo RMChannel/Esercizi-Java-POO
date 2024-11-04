@@ -20,9 +20,6 @@ public class Scommessa {
     public double getQuotazione() {
         return QuotazioneScommessa;
     }
-    public String getTipoScommessa() {
-        return "";
-    }
     public void printScommessa() {
         System.out.println("CodiceEvento: " + CodiceEvento+"\nSomma Puntata: " + SommaPuntata+"\nQuotazione Scommessa: " + QuotazioneScommessa);
     }

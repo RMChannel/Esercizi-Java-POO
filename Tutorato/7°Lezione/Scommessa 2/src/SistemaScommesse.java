@@ -9,10 +9,10 @@ public class SistemaScommesse {
         scommesse.add(s);
     }
     String daiTipoScommessa(int i) {
-        return scommesse.get(i).getTipoScommessa();
+        return scommesse.get(i).getClass().getSimpleName();
     }
-    Scommessa getMinimo() {
-        Scommessa minimo = scommesse.get(0);
+    public Scommessa getMinimo() {
+        Scommessa minimo = scommesse.getFirst();
         for(Scommessa s: scommesse) {
             if(s.calcolaVincita(true)<minimo.calcolaVincita(true)) {
                 minimo = s;
@@ -20,8 +20,8 @@ public class SistemaScommesse {
         }
         return minimo;
     }
-    Scommessa getMassimo() {
-        Scommessa massimo = scommesse.get(0);
+    public Scommessa getMassimo() {
+        Scommessa massimo = scommesse.getFirst();
         for(Scommessa s: scommesse) {
             if(s.calcolaVincita(true)>massimo.calcolaVincita(true)) {
                 massimo = s;
@@ -29,17 +29,17 @@ public class SistemaScommesse {
         }
         return massimo;
     }
-    double calcolaVincita() {
+    public double calcolaVincita() {
         double result=0;
         for(Scommessa s: scommesse) {
             result+=s.calcolaVincita(true);
         }
         return result;
     }
-    ArrayList<Scommessa> cerca(String tipo) {
+    public ArrayList<Scommessa> cerca(String tipo) {
         ArrayList<Scommessa> found = new ArrayList<>();
         for(Scommessa s: scommesse) {
-            if(s.getTipoScommessa().equals(tipo)) {
+            if(s.getClass().getSimpleName().equals(tipo)) {
                 found.add(s);
             }
         }
