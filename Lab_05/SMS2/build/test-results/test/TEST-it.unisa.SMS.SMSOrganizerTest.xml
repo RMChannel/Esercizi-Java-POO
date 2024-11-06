@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="it.unisa.SMS.SMSOrganizerTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2024-11-06T08:40:25" hostname="LEGION" time="0.007">
+  <properties/>
+  <testcase name="testListByDate" classname="it.unisa.SMS.SMSOrganizerTest" time="0.005"/>
+  <testcase name="testListBySender" classname="it.unisa.SMS.SMSOrganizerTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

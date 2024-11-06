@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="it.unisa.quiz.DataSetTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2024-11-06T08:17:46" hostname="LEGION" time="0.005">
+  <properties/>
+  <testcase name="testAverage" classname="it.unisa.quiz.DataSetTest" time="0.004"/>
+  <testcase name="testMaximum" classname="it.unisa.quiz.DataSetTest" time="0.0"/>
+  <testcase name="testMinimum" classname="it.unisa.quiz.DataSetTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

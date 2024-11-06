@@ -1,0 +1,37 @@
+type: edu
+files:
+  - name: test/it/unisa/SMS/SMSOrganizerTest.java
+    visible: true
+    learner_created: false
+  - name: src/it/unisa/SMS/SMS.java
+    visible: true
+    learner_created: false
+  - name: src/it/unisa/SMS/SMSOrganizer.java
+    visible: true
+    placeholders:
+      - offset: 367
+        length: 294
+        placeholder_text: /* TODO */
+        initial_state:
+          length: 10
+          offset: 337
+        initialized_from_dependency: false
+        encrypted_possible_answer: bFhXrDGawWugXD2mI44MvnWj1fPqokPmLmORqgRVWclGR0o5SkiD6fM4hr5PMmff
+        selected: true
+        status: Solved
+      - offset: 740
+        length: 299
+        placeholder_text: /* TODO */
+        initial_state:
+          length: 10
+          offset: 434
+        initialized_from_dependency: false
+        encrypted_possible_answer: bFhXrDGawWugXD2mI44MvnWj1fPqokPmLmORqgRVWckpnEjG0cEwyz+E2UvFbFw5
+        selected: true
+        status: Solved
+    learner_created: false
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Wed, 06 Nov 2024 08:40:25 UTC"
+record: -1
