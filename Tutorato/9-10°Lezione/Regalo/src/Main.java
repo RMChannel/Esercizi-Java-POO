@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) throws IOException {
-        SlittaDiBabboNtale s=new SlittaDiBabboNtale(1000);
+        SlittaDiBabboNatale s=new SlittaDiBabboNatale(1000);
         RegaloAdulto r1=new RegaloAdulto(new GregorianCalendar(2024,12,25),30,"Centro","Roberto");
         RegaloAdulto r2=new RegaloAdulto(new GregorianCalendar(2024,12,25),30,"Sud","Laura");
         RegaloAdulto r3=new RegaloAdulto(new GregorianCalendar(2024,12,25),30,"Nord","Antonia");
@@ -18,7 +18,7 @@ public class Main {
         File file=new File("bambini.txt");
         FileWriter fw=new FileWriter(file);
         for(Object obj : s.getLista()) {
-            if(obj instanceof RegaloBambino) {
+            if(obj.getClass().equals(RegaloBambino.class)) {
                 RegaloBambino rb=(RegaloBambino)obj;
                 fw.write(rb.getNome()+"\n");
             }

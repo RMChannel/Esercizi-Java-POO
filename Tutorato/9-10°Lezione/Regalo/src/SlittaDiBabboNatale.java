@@ -1,14 +1,16 @@
 import java.util.ArrayList;
 import java.util.Comparator;
 
-public class SlittaDiBabboNtale {
+public class SlittaDiBabboNatale {
     private ArrayList<Regalo> lista;
     private final double maxPeso;
-    public SlittaDiBabboNtale(ArrayList lista, double maxPeso) {
+    private double peso;
+    public SlittaDiBabboNatale(ArrayList lista, double maxPeso) {
         this.lista = lista;
         this.maxPeso = maxPeso;
+        peso = getTotalPeso();
     }
-    public SlittaDiBabboNtale(double maxPeso) {
+    public SlittaDiBabboNatale(double maxPeso) {
         this.maxPeso = maxPeso;
         this.lista = new ArrayList();
     }
@@ -20,11 +22,12 @@ public class SlittaDiBabboNtale {
         return total;
     }
     public boolean aggiungiRegalo(Regalo regalo) {
-        if((getTotalPeso()+regalo.getPeso())>maxPeso) {
+        if((peso+regalo.getPeso())>maxPeso) {
             return false;
         }
         else {
             lista.add(regalo);
+            peso+=regalo.getPeso();
             return true;
         }
     }
