@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="it.unisa.supermarket.SupermarketTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2024-11-20T16:55:06" hostname="LEGION" time="0.007">
+  <properties/>
+  <testcase name="getMaxPriceTest" classname="it.unisa.supermarket.SupermarketTest" time="0.005"/>
+  <testcase name="getMinPriceTest" classname="it.unisa.supermarket.SupermarketTest" time="0.0"/>
+  <testcase name="getProductTypeTest" classname="it.unisa.supermarket.SupermarketTest" time="0.0"/>
+  <testcase name="addProductTest" classname="it.unisa.supermarket.SupermarketTest" time="0.0"/>
+  <testcase name="findTest" classname="it.unisa.supermarket.SupermarketTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="it.unisa.supermarket.ElectronicTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2024-11-20T16:55:06" hostname="LEGION" time="0.001">
+  <properties/>
+  <testcase name="buy1" classname="it.unisa.supermarket.ElectronicTest" time="0.0"/>
+  <testcase name="buy2" classname="it.unisa.supermarket.ElectronicTest" time="0.0"/>
+  <testcase name="computeWarrantyPrice" classname="it.unisa.supermarket.ElectronicTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
