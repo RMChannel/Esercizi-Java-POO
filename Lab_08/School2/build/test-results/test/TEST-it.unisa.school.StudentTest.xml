@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="it.unisa.school.StudentTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2024-11-22T17:14:01" hostname="LEGION" time="0.011">
+  <properties/>
+  <testcase name="testAverageGrade" classname="it.unisa.school.StudentTest" time="0.004"/>
+  <testcase name="toStringTest" classname="it.unisa.school.StudentTest" time="0.005"/>
+  <testcase name="getNumberOfExams" classname="it.unisa.school.StudentTest" time="0.0"/>
+  <testcase name="notReallyExam" classname="it.unisa.school.StudentTest" time="0.002"/>
+  <system-out><![CDATA[30
+30
+18
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

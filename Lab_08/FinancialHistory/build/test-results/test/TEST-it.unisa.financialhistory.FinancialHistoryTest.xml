@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="it.unisa.financialhistory.FinancialHistoryTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2024-11-22T21:00:01" hostname="LEGION" time="0.015">
+  <properties/>
+  <testcase name="totalSpentFor" classname="it.unisa.financialhistory.FinancialHistoryTest" time="0.009"/>
+  <testcase name="totalReceivedFrom" classname="it.unisa.financialhistory.FinancialHistoryTest" time="0.001"/>
+  <testcase name="receiveFromTest" classname="it.unisa.financialhistory.FinancialHistoryTest" time="0.0"/>
+  <testcase name="createAccountWithNegativeBalanceTest" classname="it.unisa.financialhistory.FinancialHistoryTest" time="0.002"/>
+  <testcase name="spendForTest" classname="it.unisa.financialhistory.FinancialHistoryTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

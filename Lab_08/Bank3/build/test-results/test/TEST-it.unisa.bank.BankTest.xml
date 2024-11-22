@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="it.unisa.bank.BankTest" tests="9" skipped="0" failures="0" errors="0" timestamp="2024-11-20T17:32:14" hostname="LEGION" time="0.009">
+  <properties/>
+  <testcase name="transferTest" classname="it.unisa.bank.BankTest" time="0.004"/>
+  <testcase name="findAccountTest" classname="it.unisa.bank.BankTest" time="0.0"/>
+  <testcase name="checkNegativeDepositAndWithdrawTest" classname="it.unisa.bank.BankTest" time="0.001"/>
+  <testcase name="setAndGetInterestsTest" classname="it.unisa.bank.BankTest" time="0.0"/>
+  <testcase name="interestComputationTest" classname="it.unisa.bank.BankTest" time="0.0"/>
+  <testcase name="depositTest" classname="it.unisa.bank.BankTest" time="0.0"/>
+  <testcase name="checkNegativeBankAccountBalanceTest" classname="it.unisa.bank.BankTest" time="0.0"/>
+  <testcase name="bankAccountWithNegativeBalanceTest" classname="it.unisa.bank.BankTest" time="0.0"/>
+  <testcase name="withdrawTest" classname="it.unisa.bank.BankTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
