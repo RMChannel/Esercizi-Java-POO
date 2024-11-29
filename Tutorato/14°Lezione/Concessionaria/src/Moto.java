@@ -1,4 +1,6 @@
-public class Moto extends Veicolo{
+import java.io.Serializable;
+
+public class Moto extends Veicolo implements Serializable {
     private int cilindrata;
     private String tipo;
     public Moto(String marca, String modello, double prezzo, int anno, int cilindrata, String tipo) {

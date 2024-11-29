@@ -1,8 +1,18 @@
-public abstract class Veicolo {
+import java.io.Serializable;
+
+public abstract class Veicolo implements Serializable {
     private String marca;
     private String modello;
     private double prezzo;
     private int anno;
+
+    public Veicolo() {
+        marca = "";
+        modello = "";
+        prezzo = 0;
+        anno = 0;
+    }
+
     public Veicolo(String marca, String modello, double prezzo, int anno) {
         this.marca = marca;
         this.modello = modello;
@@ -32,4 +42,8 @@ public abstract class Veicolo {
     }
 
     public abstract double calcolaPrezzoFinale();
+
+    public Veicolo getSuper() {
+        return this;
+    }
 }

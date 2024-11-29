@@ -1,6 +1,7 @@
+import java.io.Serializable;
 import java.util.GregorianCalendar;
 
-public class AutoIbrida extends Veicolo{
+public class AutoIbrida extends Veicolo implements Serializable {
     private double consumoMedio;
     private String tipo;
     public AutoIbrida(String marca, String modelo, double prezzo, int anno, double consumoMedio, String tipo) {

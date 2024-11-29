@@ -25,7 +25,7 @@ public class Veicoli {
         createData(cars);
         frame = new JFrame();
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        frame.setSize(900, 500);
+        frame.setSize(1100, 500);
         frame.setLocationRelativeTo(null);
         frame.setVisible(true);
         frame.setTitle("Veicoli");
@@ -33,19 +33,37 @@ public class Veicoli {
     }
 
     private void createUIComponents() {
-        String[] colonne={"MARCA","MODELLO","ANNO DI I.","PREZZO"};
+        String[] colonne={"MARCA","MODELLO","ANNO DI IMMATRICOLAZIONE","PREZZO FINALE","TAG AGGIUNTIVO 1","TAG AGGIUNTIVO 2"};
         tableModel = new DefaultTableModel(colonne,0);
         table1 = new JTable(tableModel);
         table1.setSelectionMode(ListSelectionModel.SINGLE_SELECTION);
     }
 
     private void createData(ArrayList<Veicolo> cars) {
+        String option1="", option2="";
         for(Veicolo car : cars) {
+            if(car instanceof AutoElettrica) {
+                AutoElettrica auto = (AutoElettrica) car;
+                option1= String.valueOf(auto.getCapacità());
+                option2= String.valueOf(auto.getAutonomia());
+            }
+            else if(car instanceof AutoIbrida) {
+                AutoIbrida auto = (AutoIbrida) car;
+                option1=String.valueOf(auto.getConsumoMedio());
+                option2=auto.getTipo();
+            }
+            else {
+                Moto moto = (Moto) car;
+                option1=String.valueOf(moto.getCilindrata());
+                option2=moto.getTipo();
+            }
             String[] row = {
               car.getMarca(),
               car.getModello(),
               String.valueOf(car.getAnno()),
-              String.valueOf(car.getPrezzo())
+              String.valueOf(car.calcolaPrezzoFinale()),
+              option1,
+              option2
             };
             tableModel.addRow(row);
         }

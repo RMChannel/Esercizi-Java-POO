@@ -1,4 +1,6 @@
-public class AutoElettrica extends Veicolo {
+import java.io.Serializable;
+
+public class AutoElettrica extends Veicolo implements Serializable {
     private int capacità;
     private int autonomia;
     public AutoElettrica(String marca, String modello, double prezzo, int anno, int capacità, int autonomia) {

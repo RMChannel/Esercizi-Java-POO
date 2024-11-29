@@ -1,7 +1,9 @@
 import javax.swing.*;
+import java.awt.event.ActionListener;
+import java.io.Serializable;
 import java.util.GregorianCalendar;
 
-public class Ordine {
+public class Ordine implements Serializable {
     private int id;
     private GregorianCalendar data;
     private Cliente cliente;

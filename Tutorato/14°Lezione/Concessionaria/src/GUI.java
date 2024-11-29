@@ -1,6 +1,7 @@
 import javax.swing.*;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
+import java.awt.event.*;
+import java.io.*;
+import java.util.ArrayList;
 
 public class GUI {
     private JButton addVeicolo;
@@ -10,14 +11,17 @@ public class GUI {
     private JButton visualizzaTuttiIClientiButton;
     private JButton visualizzaTuttiGliOrdiniButton;
     private JButton visualizzaTuttiIVeicoliButton;
+    private JButton SALVAButton;
     private static JFrame frame;
     private static Concessionaria concessionaria=new Concessionaria();
+    private static boolean loaded=false;
 
     public GUI() {
         addVeicolo.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                System.out.println(e.getActionCommand());
+                frame.dispose();
+                new CreaAuto();
             }
         });
         visualizzaTuttiGliOrdiniButton.addActionListener(new ActionListener() {
@@ -52,6 +56,13 @@ public class GUI {
                 new CreaCliente();
             }
         });
+        creaUnNuovoOrdineButton.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                frame.dispose();
+                new CreaOrdine();
+            }
+        });
     }
 
     public static void addCliente(Cliente cliente) {
@@ -69,9 +80,95 @@ public class GUI {
     public static void main(String[] args) {
         frame = new JFrame("Concessionaria");
         frame.setContentPane(new GUI().MainMenu);
-        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        if(!loaded) {
+            File file=new File("auto.dat");
+            File file2=new File("clienti.dat");
+            try { //Caricamento veicoli
+                if(file.exists()) {
+                    ObjectInputStream auto = new ObjectInputStream(new FileInputStream("auto.dat"));
+                    while (true) {
+                        try {
+                            Object o = auto.readObject();
+                            Veicolo v;
+                            if(o instanceof AutoIbrida) {
+                                v = (AutoIbrida) o;
+                            }
+                            else if(o instanceof AutoElettrica) {
+                                v = (AutoElettrica) o;
+                            }
+                            else {
+                                v = (Moto) o;
+                            }
+                            concessionaria.addVeicolo(v);
+                        }
+                        catch(EOFException e) {break;}
+                    }
+                }
+                loaded=true;
+            }
+            catch (Exception e) {
+                e.printStackTrace();
+            };
+            try { //Caricamento clienti
+                if(file2.exists()) {
+                    ObjectInputStream clients = new ObjectInputStream(new FileInputStream("clienti.dat"));
+                    while (true) {
+                        try {
+                            concessionaria.addCliente((Cliente) clients.readObject());
+                        }
+                        catch(EOFException e) {break;}
+                    }
+                }
+            }catch (Exception e) {
+                e.printStackTrace();
+            }
+        }
+        try {
+            frame.setDefaultCloseOperation(saveAll());
+        }
+        catch (Exception ex) {
+            ex.printStackTrace();
+        }
         frame.setSize(500, 500);
         frame.setLocationRelativeTo(null);
         frame.setVisible(true);
+    }
+
+    public static int saveAll() throws IOException {
+        File file=new File("auto.dat");
+        File file2=new File("clienti.dat");
+        ObjectOutputStream auto = null;
+        ObjectOutputStream clienti = null;
+        if(file.exists()) file.delete();
+        if(file2.exists()) file2.delete();
+        try {
+            auto = new ObjectOutputStream(new FileOutputStream("auto.dat"));
+            clienti = new ObjectOutputStream(new FileOutputStream("clienti.dat"));
+        }
+        catch (FileNotFoundException ignored){};
+        ArrayList<Veicolo> cars=concessionaria.getVeicoli();
+        ArrayList<Cliente> clients=concessionaria.getClienti();
+        for(Veicolo v:cars){
+            assert v != null;
+            if(v instanceof AutoIbrida) {
+                AutoIbrida car=(AutoIbrida) v;
+                auto.writeObject(car);
+            }
+            else if(v instanceof AutoElettrica) {
+                AutoElettrica car=(AutoElettrica) v;
+                auto.writeObject(car);
+            }
+            else {
+                Moto car=(Moto) v;
+                auto.writeObject(car);
+            }
+        }
+        auto.close();
+        for(Cliente c:clients){
+            assert c != null;
+            clienti.writeObject(c);
+        }
+        clienti.close();
+        return JFrame.EXIT_ON_CLOSE;
     }
 }

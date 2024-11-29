@@ -32,7 +32,7 @@ public class CreaCliente {
             @Override
             public void actionPerformed(ActionEvent e) {
                 if (Nome.getText().isEmpty() || Cognome.getText().isEmpty() || Indirizzo.getText().isEmpty()) {
-                    JOptionPane.showMessageDialog(frame, "Uno dei parametri è vuoto, controlla e riprova");
+                    JOptionPane.showMessageDialog(frame, "Uno dei parametri è vuoto, controlla e riprova","Errore parametri", JOptionPane.ERROR_MESSAGE);
                 } else {
                     Cliente cliente = new Cliente(Nome.getText(), Cognome.getText(), Indirizzo.getText());
                     GUI.addCliente(cliente);
