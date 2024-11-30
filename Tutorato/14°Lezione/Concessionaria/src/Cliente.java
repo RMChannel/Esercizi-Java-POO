@@ -41,4 +41,13 @@ public class Cliente implements Serializable {
     public String toString() {
         return "Nome: " + nome + ", Cognome: " + cognome + ", Indirizzo: " + indirizzo;
     }
+
+    @Override
+    public boolean equals(Object obj) {
+        if(obj.getClass().equals(Cliente.class)) {
+            Cliente cliente = (Cliente) obj;
+            return cliente.nome.equals(this.nome) && cliente.cognome.equals(this.cognome) && cliente.indirizzo.equals(this.indirizzo) && cliente.ordini.equals(this.ordini);
+        }
+        return false;
+    }
 }

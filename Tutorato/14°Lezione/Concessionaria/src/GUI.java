@@ -159,7 +159,7 @@ public class GUI {
         }catch (Exception e) {
             e.printStackTrace();
         }
-        try {
+        try { //Caricamento ordini
             if(file3.exists()) {
                 ObjectInputStream ordines = new ObjectInputStream(new FileInputStream("ordini.dat"));
                 while (true) {
