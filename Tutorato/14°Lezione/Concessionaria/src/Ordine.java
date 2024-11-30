@@ -35,4 +35,12 @@ public class Ordine implements Serializable {
     public String toString() {
         return "ID: " + id + ", data: " + data.toString() + ", cliente: " + cliente.toString() + ", veicolo: " + veicolo.toString();
     }
+
+    @Override
+    public boolean equals(Object o) {
+        if(o.getClass().equals(Ordine.class)) {
+            return id == ((Ordine) o).id && data.equals(((Ordine) o).data) && veicolo.equals(((Ordine) o).veicolo);
+        }
+        return false;
+    }
 }

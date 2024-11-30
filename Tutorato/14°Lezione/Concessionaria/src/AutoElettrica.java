@@ -26,4 +26,14 @@ public class AutoElettrica extends Veicolo implements Serializable {
     public String toString() {
         return super.toString() + " Caratteristiche batteria, Capacità: " + capacità + ", Autonomia: " + autonomia;
     }
+
+    @Override
+    public boolean equals(Object obj) {
+        if(obj.getClass().equals(AutoElettrica.class)) {
+            AutoElettrica autoElettrica = (AutoElettrica) obj;
+            Veicolo veicolo = (Veicolo) obj;
+            return autoElettrica.capacità==this.capacità && autoElettrica.autonomia==this.autonomia && super.equals(veicolo);
+        }
+        return false;
+    }
 }

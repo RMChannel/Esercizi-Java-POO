@@ -29,6 +29,14 @@ public class Cliente implements Serializable {
         return ordini;
     }
 
+    public void addOrdine(Ordine ordine){
+        this.ordini.add(ordine);
+    }
+
+    public void removeOrdine(Ordine ordine){
+        this.ordini.remove(ordine);
+    }
+
     @Override
     public String toString() {
         return "Nome: " + nome + ", Cognome: " + cognome + ", Indirizzo: " + indirizzo;

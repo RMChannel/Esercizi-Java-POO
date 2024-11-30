@@ -32,9 +32,9 @@ public class Ordini {
         for(Ordine o: ordiniList) {
             String[] row = {
                     String.valueOf(o.getId()),
-                    o.getData().toString(),
-                    o.getCliente().toString(),
-                    o.getVeicolo().toString()
+                    o.getData().getTime().toString(),
+                    o.getCliente().getNome()+" "+o.getCliente().getCognome(),
+                    o.getVeicolo().getMarca()+" "+o.getVeicolo().getModello()
             };
             tableModel.addRow(row);
         }

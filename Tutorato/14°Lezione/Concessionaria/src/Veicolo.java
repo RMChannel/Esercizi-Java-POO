@@ -46,4 +46,13 @@ public abstract class Veicolo implements Serializable {
     public Veicolo getSuper() {
         return this;
     }
+
+    @Override
+    public boolean equals(Object obj) {
+        if (obj.getClass().equals(this.getClass())) {
+            Veicolo v = (Veicolo) obj;
+            return v.anno == this.anno && v.marca.equals(this.marca) && v.modello.equals(this.modello) && v.prezzo == this.prezzo;
+        }
+        return false;
+    }
 }

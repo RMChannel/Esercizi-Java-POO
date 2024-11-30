@@ -28,4 +28,14 @@ public class Moto extends Veicolo implements Serializable {
     public String toString() {
         return super.toString() + ", Cilindrata" + cilindrata + ", Tipo Moto: " + tipo;
     }
+
+    @Override
+    public boolean equals(Object obj) {
+        if(obj.getClass().equals(Moto.class)) {
+            Moto moto = (Moto) obj;
+            Veicolo v = (Veicolo) obj;
+            return moto.cilindrata==cilindrata && moto.tipo.equals(tipo) && super.equals(v);
+        }
+        return false;
+    }
 }

@@ -38,4 +38,14 @@ public class AutoIbrida extends Veicolo implements Serializable {
     public String toString() {
         return super.toString()+ " Tipo: " + getTipo() + ", Consumo medio: " + getConsumoMedio();
     }
+
+    @Override
+    public boolean equals(Object obj) {
+        if(obj.getClass().equals(AutoIbrida.class)) {
+            AutoIbrida other = (AutoIbrida) obj;
+            Veicolo v = (Veicolo) obj;
+            return other.consumoMedio==this.consumoMedio && other.tipo.equals(this.tipo) && super.equals(v);
+        }
+        return false;
+    }
 }
