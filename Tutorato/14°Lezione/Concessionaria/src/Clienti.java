@@ -40,6 +40,7 @@ public class Clienti {
     }
 
     private void createData(ArrayList<Cliente> cc) {
+        cc.sort(Cliente::compareTo);
         for(Cliente c : cc) {
             String[] row = {
                     c.getNome(),c.getCognome(),c.getIndirizzo()

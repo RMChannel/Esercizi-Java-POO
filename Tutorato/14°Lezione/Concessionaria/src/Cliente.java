@@ -1,7 +1,7 @@
 import java.io.Serializable;
 import java.util.ArrayList;
 
-public class Cliente implements Serializable {
+public class Cliente implements Serializable, Comparable<Cliente> {
     private String nome;
     private String cognome;
     private String indirizzo;
@@ -49,5 +49,14 @@ public class Cliente implements Serializable {
             return cliente.nome.equals(this.nome) && cliente.cognome.equals(this.cognome) && cliente.indirizzo.equals(this.indirizzo) && cliente.ordini.equals(this.ordini);
         }
         return false;
+    }
+
+    @Override
+    public int compareTo(Cliente o) {
+        int result=this.nome.compareTo(o.nome);
+        if(result==0) {
+            return this.cognome.compareTo(o.cognome);
+        }
+        else return result;
     }
 }

@@ -1,6 +1,6 @@
 import java.io.Serializable;
 
-public abstract class Veicolo implements Serializable {
+public abstract class Veicolo implements Serializable, Comparable<Veicolo> {
     private String marca;
     private String modello;
     private double prezzo;
@@ -54,5 +54,10 @@ public abstract class Veicolo implements Serializable {
             return v.anno == this.anno && v.marca.equals(this.marca) && v.modello.equals(this.modello) && v.prezzo == this.prezzo;
         }
         return false;
+    }
+
+    @Override
+    public int compareTo(Veicolo o) {
+        return o.getMarca().compareTo(this.marca)*-1;
     }
 }

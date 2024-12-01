@@ -41,6 +41,7 @@ public class Veicoli {
 
     private void createData(ArrayList<Veicolo> cars) {
         String option1="", option2="";
+        cars.sort(Veicolo::compareTo);
         for(Veicolo car : cars) {
             if(car instanceof AutoElettrica) {
                 AutoElettrica auto = (AutoElettrica) car;

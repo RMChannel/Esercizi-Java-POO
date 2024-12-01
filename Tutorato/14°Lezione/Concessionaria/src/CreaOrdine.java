@@ -50,6 +50,8 @@ public class CreaOrdine {
     }
 
     private void createUIComponents() {
+        veicoli.sort(Veicolo::compareTo);
+        clienti.sort(Cliente::compareTo);
         for(Veicolo v : veicoli) {
             checkVeicolo.addItem(v.getMarca()+" "+v.getModello());
         }
