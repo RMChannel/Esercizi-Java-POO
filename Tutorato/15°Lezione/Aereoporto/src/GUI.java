@@ -10,7 +10,7 @@ public class GUI extends JFrame {
     private JButton gestisciIPasseggeriButton;
     private JButton gestisciICheckInButton;
     private JFrame frame;
-    public static Aereoporto aereoporto;
+    private static Aereoporto aereoporto;
 
     public GUI() {
         frame = new JFrame();
@@ -71,5 +71,13 @@ public class GUI extends JFrame {
 
     public static ArrayList<Volo> getVoli() {
         return aereoporto.getVoli();
+    }
+
+    public static ArrayList<Aereo> getAerei() {
+        return aereoporto.getAerei();
+    }
+
+    public static void aggiungiVolo(String codice, Aereo aereo, String destinazione, GregorianCalendar orarioDiPartenza, GregorianCalendar orarioDiArrivo, boolean PA) {
+        aereoporto.newVolo(codice,aereo,destinazione,orarioDiPartenza,orarioDiArrivo,PA);
     }
 }

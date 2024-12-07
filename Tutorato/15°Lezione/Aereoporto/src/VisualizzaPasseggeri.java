@@ -31,7 +31,7 @@ public class VisualizzaPasseggeri {
     private void createUIComponents() {
         String[] colonne={"Tipo","Nome","Cognome","Data di nascita","ID"};
         DefaultTableModel model = new DefaultTableModel(colonne,0);
-        ArrayList<Persona> persone=GUI.aereoporto.getPersone();
+        ArrayList<Persona> persone=GUI.getPersone();
         table1 = new JTable(model);
         table1.setSelectionMode(ListSelectionModel.SINGLE_SELECTION);
         for(Persona p:persone) {

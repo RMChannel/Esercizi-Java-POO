@@ -29,14 +29,15 @@ public class GestioneVoli {
         aggiungiUnNuovoVoloButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-
+                frame.dispose();
+                new AggiungiVolo();
             }
         });
         visualizzaLElencoDeiButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                new VisualizzaVoli();
                 frame.dispose();
+                new VisualizzaVoli();
             }
         });
         modificaORimuoviUnButton.addActionListener(new ActionListener() {
