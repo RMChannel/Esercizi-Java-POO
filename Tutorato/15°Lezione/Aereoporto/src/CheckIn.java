@@ -13,7 +13,7 @@ public class CheckIn {
     private JButton faiIlCheckInButton;
     private static JFrame frame;
 
-    public CheckIn() {
+    public CheckIn() { //TODO
         frame = new JFrame();
         frame.setContentPane(checkIn);
         frame.setTitle("CheckIn");
