@@ -47,7 +47,11 @@ public class Aereoporto {
         }
         for(Volo v: voli) {
             if(v.equals(volo)) {
+                if(v.getPasseggeri().contains(passeggero)) {
+                    throw new CheckInAlreadyDone("Check-in già effettuato per questo passeggero");
+                }
                 v.aggiungiPassegero(passeggero);
+                return;
             }
         }
         throw new NotFound("Il volo non è registrato nell'aereoporto");

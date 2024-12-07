@@ -9,4 +9,9 @@ public class Passeggero extends Persona {
         this.nPassaporto = nPassaporto;
         biglietti = new ArrayList<>();
     }
+
+    @Override
+    public String toString() {
+        return "Nome: "+super.getNome()+" Cognome: "+super.getCognome()+" ID: "+super.getId();
+    }
 }

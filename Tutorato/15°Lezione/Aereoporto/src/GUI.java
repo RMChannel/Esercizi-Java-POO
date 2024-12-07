@@ -80,4 +80,8 @@ public class GUI extends JFrame {
     public static void aggiungiVolo(String codice, Aereo aereo, String destinazione, GregorianCalendar orarioDiPartenza, GregorianCalendar orarioDiArrivo, boolean PA) {
         aereoporto.newVolo(codice,aereo,destinazione,orarioDiPartenza,orarioDiArrivo,PA);
     }
+
+    public static void checkIn(Passeggero passeggero,Volo volo) {
+        aereoporto.checkIn(passeggero,volo);
+    }
 }

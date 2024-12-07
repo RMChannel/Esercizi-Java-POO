@@ -24,7 +24,7 @@
         <properties/>
         <border type="none"/>
         <children>
-          <component id="5ac4e" class="javax.swing.JComboBox" binding="listaVoli">
+          <component id="5ac4e" class="javax.swing.JComboBox" binding="listaVoli" custom-create="true">
             <constraints>
               <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
             </constraints>
@@ -46,7 +46,7 @@
               <text value="Scegli il passeggero:"/>
             </properties>
           </component>
-          <component id="ad057" class="javax.swing.JComboBox" binding="listaPasseggeri">
+          <component id="ad057" class="javax.swing.JComboBox" binding="listaPasseggeri" custom-create="true">
             <constraints>
               <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
             </constraints>
