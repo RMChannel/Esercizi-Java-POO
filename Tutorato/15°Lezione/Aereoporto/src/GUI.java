@@ -1,6 +1,7 @@
 import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.util.ArrayList;
 import java.util.GregorianCalendar;
 
 public class GUI extends JFrame {
@@ -62,5 +63,9 @@ public class GUI extends JFrame {
 
     public static void aggiungiPasseggero(Passeggero passeggero) {
         aereoporto.aggiungiPersona(passeggero);
+    }
+
+    public static ArrayList<Persona> getPersone() {
+        return aereoporto.getPersone();
     }
 }
