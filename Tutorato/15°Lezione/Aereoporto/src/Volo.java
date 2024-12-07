@@ -10,6 +10,26 @@ public class Volo {
     private ArrayList<Persona> passeggeri;
     private boolean PA;
 
+    public void setCodice(String codice) {
+        this.codice = codice;
+    }
+
+    public void setDestinazione(String destinazione) {
+        this.destinazione = destinazione;
+    }
+
+    public void setOrarioDiPartenza(GregorianCalendar orarioDiPartenza) {
+        this.orarioDiPartenza = orarioDiPartenza;
+    }
+
+    public void setOrarioDiArrivo(GregorianCalendar orarioDiArrivo) {
+        this.orarioDiArrivo = orarioDiArrivo;
+    }
+
+    public void setPA(boolean PA) {
+        this.PA = PA;
+    }
+
     public Volo(String codice, String destinazione, GregorianCalendar orarioDiPartenza, GregorianCalendar orarioDiArrivo, boolean PA) {
         this.codice = codice;
         this.destinazione = destinazione;

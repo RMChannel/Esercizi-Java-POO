@@ -70,4 +70,8 @@ public class Aereoporto {
             System.out.println(v.toString());
         }
     }
+
+    public void rimuoviVolo(Volo volo) {
+        voli.remove(volo);
+    }
 }

@@ -84,4 +84,8 @@ public class GUI extends JFrame {
     public static void checkIn(Passeggero passeggero,Volo volo) {
         aereoporto.checkIn(passeggero,volo);
     }
+
+    public static void rimuoviVolo(Volo volo) {
+        aereoporto.rimuoviVolo(volo);
+    }
 }
