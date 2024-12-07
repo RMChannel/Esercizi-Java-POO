@@ -33,4 +33,8 @@ public class Aereo {
         }
         return false;
     }
+    @Override
+    public String toString() {
+        return "ID: "+id+" Capienza: "+capienza+" Anno di Produzione: "+annoDiProduzione;
+    }
 }

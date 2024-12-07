@@ -68,4 +68,8 @@ public class GUI extends JFrame {
     public static ArrayList<Persona> getPersone() {
         return aereoporto.getPersone();
     }
+
+    public static ArrayList<Volo> getVoli() {
+        return aereoporto.getVoli();
+    }
 }

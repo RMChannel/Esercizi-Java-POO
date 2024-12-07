@@ -35,7 +35,8 @@ public class GestioneVoli {
         visualizzaLElencoDeiButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-
+                new VisualizzaVoli();
+                frame.dispose();
             }
         });
         modificaORimuoviUnButton.addActionListener(new ActionListener() {
