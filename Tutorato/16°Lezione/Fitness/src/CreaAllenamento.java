@@ -4,7 +4,7 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.util.ArrayList;
 
-public class CreaAllenamento {
+public class CreaAllenamento extends JFrame {
     private JButton tornaIndietroButton;
     private JPanel panel1;
     private JPanel buttonPanel;
@@ -16,7 +16,6 @@ public class CreaAllenamento {
     private static ArrayList<Esercizio> esercizi;
 
     public CreaAllenamento() {
-        frame = new JFrame();
         frame.setTitle("Crea Allenamento");
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setSize(700,600);

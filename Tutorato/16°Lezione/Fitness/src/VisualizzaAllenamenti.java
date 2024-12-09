@@ -5,7 +5,7 @@ import java.awt.event.ActionListener;
 import java.util.ArrayList;
 import java.util.Arrays;
 
-public class VisualizzaAllenamenti {
+public class VisualizzaAllenamenti extends JFrame {
     private JButton tornaIndietroButton;
     private JPanel panel1;
     private JTable table1;

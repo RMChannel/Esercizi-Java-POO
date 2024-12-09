@@ -2,7 +2,7 @@ import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-public class StatisticheUtente {
+public class StatisticheUtente extends JFrame {
     private JButton tornaIndietroButton;
     private JPanel panel1;
     private JLabel nome;

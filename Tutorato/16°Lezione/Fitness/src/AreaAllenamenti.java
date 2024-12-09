@@ -2,7 +2,7 @@ import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-public class AreaAllenamenti {
+public class AreaAllenamenti extends JFrame {
     private JButton tornaIndietroButton;
     private JPanel panel1;
     private JButton creaUnNuovoAllenamentoButton;

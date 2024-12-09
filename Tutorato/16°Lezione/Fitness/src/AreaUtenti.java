@@ -3,7 +3,7 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.util.ArrayList;
 
-public class AreaUtenti {
+public class AreaUtenti extends JFrame {
     private JPanel panel;
     private JButton tornaIndietroButton;
     private JComboBox comboBox1;
