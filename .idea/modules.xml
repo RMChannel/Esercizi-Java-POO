@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Tutorato/11°Lezione/11°Lezione.iml" filepath="$PROJECT_DIR$/Tutorato/11°Lezione/11°Lezione.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Tutorato/13°Lezione/13°Lezione.iml" filepath="$PROJECT_DIR$/Tutorato/13°Lezione/13°Lezione.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Tutorato/14°Lezione/14°Lezione.iml" filepath="$PROJECT_DIR$/Tutorato/14°Lezione/14°Lezione.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Tutorato/4°Lezione/4°Lezione.iml" filepath="$PROJECT_DIR$/Tutorato/4°Lezione/4°Lezione.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Tutorato/5°Lezione/5°Lezione.iml" filepath="$PROJECT_DIR$/Tutorato/5°Lezione/5°Lezione.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Tutorato/8°Lezione/8°Lezione.iml" filepath="$PROJECT_DIR$/Tutorato/8°Lezione/8°Lezione.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Tutorato/9-10°Lezione/9-10°Lezione.iml" filepath="$PROJECT_DIR$/Tutorato/9-10°Lezione/9-10°Lezione.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Tutorato/3°Lezione/Agenti/Agenti.iml" filepath="$PROJECT_DIR$/Tutorato/3°Lezione/Agenti/Agenti.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Tutorato/3°Lezione/Archivio/Archivio.iml" filepath="$PROJECT_DIR$/Tutorato/3°Lezione/Archivio/Archivio.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lab_03/Bank/Bank.iml" filepath="$PROJECT_DIR$/Lab_03/Bank/Bank.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lab_06/Bank2/Bank2.iml" filepath="$PROJECT_DIR$/Lab_06/Bank2/Bank2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lab_08/Bank3/Bank3.iml" filepath="$PROJECT_DIR$/Lab_08/Bank3/Bank3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lab_09/Bank4/Bank4.iml" filepath="$PROJECT_DIR$/Lab_09/Bank4/Bank4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lab_06/Bookshop/Bookshop.iml" filepath="$PROJECT_DIR$/Lab_06/Bookshop/Bookshop.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lab_02/Car/Car.iml" filepath="$PROJECT_DIR$/Lab_02/Car/Car.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lab_09/CarSeller/CarSeller.iml" filepath="$PROJECT_DIR$/Lab_09/CarSeller/CarSeller.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Tutorato/12°Lezione/Centro Sportivo/Centro Sportivo.iml" filepath="$PROJECT_DIR$/Tutorato/12°Lezione/Centro Sportivo/Centro Sportivo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lab_01/CharAt/CharAt.iml" filepath="$PROJECT_DIR$/Lab_01/CharAt/CharAt.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lab_06/Company/Company.iml" filepath="$PROJECT_DIR$/Lab_06/Company/Company.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Esercizi Presi Dalla Lezione/ContaPersone/ContaPersone.iml" filepath="$PROJECT_DIR$/Esercizi Presi Dalla Lezione/ContaPersone/ContaPersone.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Tutorato/6°Lezione/ContoCorrente/ContoCorrente.iml" filepath="$PROJECT_DIR$/Tutorato/6°Lezione/ContoCorrente/ContoCorrente.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lab_05/Country/Country.iml" filepath="$PROJECT_DIR$/Lab_05/Country/Country.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Tutorato/12°Lezione/CustomCollection/CustomCollection.iml" filepath="$PROJECT_DIR$/Tutorato/12°Lezione/CustomCollection/CustomCollection.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lab_03/Dice/Dice.iml" filepath="$PROJECT_DIR$/Lab_03/Dice/Dice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Tutorato/2°Lezione/Distributore/Distributore.iml" filepath="$PROJECT_DIR$/Tutorato/2°Lezione/Distributore/Distributore.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Esercizi Personali/Esercizi Personali.iml" filepath="$PROJECT_DIR$/Esercizi Personali/Esercizi Personali.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Esercizi-Java-POO.iml" filepath="$PROJECT_DIR$/.idea/Esercizi-Java-POO.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lab_08/FinancialHistory/FinancialHistory.iml" filepath="$PROJECT_DIR$/Lab_08/FinancialHistory/FinancialHistory.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lab_01/FirstAndLastInverted/FirstAndLastInverted.iml" filepath="$PROJECT_DIR$/Lab_01/FirstAndLastInverted/FirstAndLastInverted.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lab_02/FirstAndLastWord/FirstAndLastWord.iml" filepath="$PROJECT_DIR$/Lab_02/FirstAndLastWord/FirstAndLastWord.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lab_01/IndexOf/IndexOf.iml" filepath="$PROJECT_DIR$/Lab_01/IndexOf/IndexOf.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lab_02/Infected/Infected.iml" filepath="$PROJECT_DIR$/Lab_02/Infected/Infected.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lab_02/InputChecker/InputChecker.iml" filepath="$PROJECT_DIR$/Lab_02/InputChecker/InputChecker.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lab_01/InvertHalfString/InvertHalfString.iml" filepath="$PROJECT_DIR$/Lab_01/InvertHalfString/InvertHalfString.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lab_07/Lab_07.iml" filepath="$PROJECT_DIR$/Lab_07/Lab_07.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lab_02/Locker/Locker.iml" filepath="$PROJECT_DIR$/Lab_02/Locker/Locker.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lab_03/MagicSquare/MagicSquare.iml" filepath="$PROJECT_DIR$/Lab_03/MagicSquare/MagicSquare.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lab_06/MedicalTests/MedicalTests.iml" filepath="$PROJECT_DIR$/Lab_06/MedicalTests/MedicalTests.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Tutorato/2°Lezione/Negozio/Negozio.iml" filepath="$PROJECT_DIR$/Tutorato/2°Lezione/Negozio/Negozio.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Tutorato/6°Lezione/Persona/Persona.iml" filepath="$PROJECT_DIR$/Tutorato/6°Lezione/Persona/Persona.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lab_09/PhoneCompany/PhoneCompany.iml" filepath="$PROJECT_DIR$/Lab_09/PhoneCompany/PhoneCompany.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lab_01/PrintMiddleChar/PrintMiddleChar.iml" filepath="$PROJECT_DIR$/Lab_01/PrintMiddleChar/PrintMiddleChar.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lab_03/Purse/Purse.iml" filepath="$PROJECT_DIR$/Lab_03/Purse/Purse.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lab_05/Quiz/Quiz.iml" filepath="$PROJECT_DIR$/Lab_05/Quiz/Quiz.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lab_05/Quiz2/Quiz2.iml" filepath="$PROJECT_DIR$/Lab_05/Quiz2/Quiz2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lab_06/Quiz3/Quiz3.iml" filepath="$PROJECT_DIR$/Lab_06/Quiz3/Quiz3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lab_04/Railways/Railways.iml" filepath="$PROJECT_DIR$/Lab_04/Railways/Railways.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lab_06/Railways2/Railways2.iml" filepath="$PROJECT_DIR$/Lab_06/Railways2/Railways2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lab_01/Rectangle/Rectangle.iml" filepath="$PROJECT_DIR$/Lab_01/Rectangle/Rectangle.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lab_04/SMS/SMS.iml" filepath="$PROJECT_DIR$/Lab_04/SMS/SMS.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lab_05/SMS2/SMS2.iml" filepath="$PROJECT_DIR$/Lab_05/SMS2/SMS2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lab_02/SavingAccount/SavingAccount.iml" filepath="$PROJECT_DIR$/Lab_02/SavingAccount/SavingAccount.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lab_06/School/School.iml" filepath="$PROJECT_DIR$/Lab_06/School/School.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lab_08/School2/School2.iml" filepath="$PROJECT_DIR$/Lab_08/School2/School2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Tutorato/7°Lezione/Scommessa/Scommessa.iml" filepath="$PROJECT_DIR$/Tutorato/7°Lezione/Scommessa/Scommessa.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Tutorato/7°Lezione/Scommessa 2/Scommessa 2.iml" filepath="$PROJECT_DIR$/Tutorato/7°Lezione/Scommessa 2/Scommessa 2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lab_01/StringBuilder/StringBuilder.iml" filepath="$PROJECT_DIR$/Lab_01/StringBuilder/StringBuilder.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lab_01/StringClass/StringClass.iml" filepath="$PROJECT_DIR$/Lab_01/StringClass/StringClass.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lab_02/Student/Student.iml" filepath="$PROJECT_DIR$/Lab_02/Student/Student.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lab_05/Student/Student2.iml" filepath="$PROJECT_DIR$/Lab_05/Student/Student2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Esercizi Presi Dalla Lezione/TestGui/TestGui.iml" filepath="$PROJECT_DIR$/Esercizi Presi Dalla Lezione/TestGui/TestGui.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lab_03/Tic-tac-toe/Tic-tac-toe.iml" filepath="$PROJECT_DIR$/Lab_03/Tic-tac-toe/Tic-tac-toe.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lab_08/TryAgain/TryAgain.iml" filepath="$PROJECT_DIR$/Lab_08/TryAgain/TryAgain.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lab_01/UpperCaseInitial/UpperCaseInitial.iml" filepath="$PROJECT_DIR$/Lab_01/UpperCaseInitial/UpperCaseInitial.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lab_02/VendingMachine/VendingMachine.iml" filepath="$PROJECT_DIR$/Lab_02/VendingMachine/VendingMachine.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Tutorato/1°Lezione/sommaArray/sommaArray.iml" filepath="$PROJECT_DIR$/Tutorato/1°Lezione/sommaArray/sommaArray.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Tutorato/1°Lezione/studente/studente.iml" filepath="$PROJECT_DIR$/Tutorato/1°Lezione/studente/studente.iml" />
+    </modules>
+  </component>
+</project>
