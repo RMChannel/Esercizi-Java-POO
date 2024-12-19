@@ -69,7 +69,7 @@ public class GUI extends JFrame {
             compagniaAerea.aggiungiPasseggero(new PasseggeroEconomica(String.valueOf(i),String.valueOf(i),rand.nextInt(2024-1990+1)+1990));
         }
         for(int i=0;i<25;i++) {
-            compagniaAerea.aggiungiPasseggero(new PasseggeroEconomica(String.valueOf(i+25),String.valueOf(i+25),rand.nextInt(2024-1990+1)+1990));
+            compagniaAerea.aggiungiPasseggero(new PasseggeroBusiness(String.valueOf(i+25),String.valueOf(i+25),rand.nextInt(2024-1990+1)+1990));
         }
         for(int i=0;i<70;i++) {
             String classe;
