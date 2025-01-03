@@ -27,7 +27,6 @@ public class FileDialog extends JFrame {
         setSize(300,100);
         setLocationRelativeTo(null);
         setContentPane(panel);
-        nomeFile.setText("savedata.dat");
         setVisible(true);
         apriFileButton.addActionListener(new ActionListener() {
             @Override
